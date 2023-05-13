@@ -1,0 +1,62 @@
+body{
+		background-color: rgb(148, 148, 184);
+	}
+	.container-todo{
+		width: 100%;
+		height: 100%;
+		justify-content: center;
+		display: flex;
+		align-items: center;
+		flex-wrap: inherit;
+	}
+	.container-todo a{
+		transition: color 0.4s;
+	}
+	.container-todo a:hover{
+		color: rgb(0, 123, 255);
+	}
+	.container-todo a:active{
+		color: white;
+	}
+	.setir-divi{
+		background-color: rgb(117, 117, 163);
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+		margin-bottom: 6px;
+	}
+	.name-divi{
+		margin-left: 10px;
+		font-family: 'Inconsolata', monospace;
+		font-weight: 600;
+		font-size: 26px;
+		font-style: solid;
+		color: white;
+		flex: 5;
+	}
+	.butonlar-divi{
+		flex: 1;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+		flex-wrap: wrap;
+	}
+	.butonlar-divi a{
+		flex: 1;
+		margin: 4px;
+	}
+	.forum-div{
+		width: 100%;
+		height: 400px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.form-myform{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
